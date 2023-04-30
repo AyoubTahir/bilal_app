@@ -4,7 +4,7 @@ import cors from 'cors';
 
 import corsOptions from './config/corsOptions.js';
 import authRoutes from './routes/authRouts.js';
-
+//port
 const PORT = process.env.PORT || 3500;
 
 const app = express();
